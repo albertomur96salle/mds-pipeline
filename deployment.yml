@@ -15,7 +15,7 @@ spec:
     metadata:
       labels:
         role: app
-        version: v1.0.2
+        version: v1.0.4
     spec:
       containers:
       - name: app
