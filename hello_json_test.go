@@ -6,7 +6,7 @@ import (
 
 func TestGetHelloJSON(t *testing.T) {
 	t.Run("This test checks if the hello JSON class returns the proper JSON", func(t *testing.T) {
-		assertEquals(`{"message": "Hola Mundo"}`, GetHelloJSON(), t)
+		assertEquals(`{"message": "Hello World"}`, GetHelloJSON(), t)
 	})
 }
 
